@@ -1,8 +1,4 @@
-//
-//  AddEditEntryView.swift
-//  CoreDataJournal
-//
-//
+
 
 import SwiftUI
 

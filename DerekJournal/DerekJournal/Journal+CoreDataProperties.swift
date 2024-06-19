@@ -1,10 +1,4 @@
-//
-//  Journal+CoreDataProperties.swift
-//  CoreDataJournal
-//
-//  Created by Parker Rushton on 5/14/24.
-//
-//
+
 
 import Foundation
 import CoreData

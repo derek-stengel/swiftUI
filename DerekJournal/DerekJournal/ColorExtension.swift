@@ -1,9 +1,3 @@
-//
-//  ColorExtension.swift
-//  CoreDataJournal
-//
-//  Created by Parker Rushton on 5/14/24.
-//
 
 import SwiftUI
 import UIKit

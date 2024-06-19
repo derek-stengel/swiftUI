@@ -1,8 +1,4 @@
-//
-//  JournalController.swift
-//  CoreDataJournal
-//
-//
+
 
 import Foundation
 import UIKit

@@ -1,8 +1,3 @@
-//
-//  ImagePicker.swift
-//  CoreDataJournal
-//
-//
 
 import Foundation
 import PhotosUI

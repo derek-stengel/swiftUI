@@ -1,9 +1,4 @@
-//
-//  Persistence.swift
-//  CoreDataJournal
-//
-//  Created by Parker Rushton on 5/8/24.
-//
+
 
 import CoreData
 

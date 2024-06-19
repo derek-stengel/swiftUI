@@ -1,8 +1,4 @@
-//
-//  JournalsView.swift
-//  CoreDataJournal
-//
-//
+
 
 import SwiftUI
 
@@ -13,7 +9,7 @@ struct JournalsView: View {
         animation: .default)
     private var journals: FetchedResults<Journal>
 
-    @State private var isShowingNewJournalView = false
+    @State private var isShowingNewJournal = false
 
     var body: some View {
         NavigationStack {
@@ -34,7 +30,7 @@ struct JournalsView: View {
                 }
             }
         }
-        .sheet(isPresented: $isShowingNewJournalView) {
+        .sheet(isPresented: $isShowingNewJournal) {
             AddEditJournalView()
         }
     }
@@ -58,11 +54,11 @@ struct JournalsView: View {
     }
 
     func showNewJournalView() {
-        isShowingNewJournalView = true
+        isShowingNewJournal = true
     }
 
 }
 
-#Preview {
-    JournalsView()
-}
+//#Preview {
+//    JournalsView()
+//}

@@ -1,8 +1,4 @@
-//
-//  AddEditJournalView.swift
-//  CoreDataJournal
-//
-//
+
 
 import SwiftUI
 
@@ -11,7 +7,7 @@ struct AddEditJournalView: View {
     @Environment(\.dismiss) var dismiss
 
     @State private var title = ""
-    @State private var selectedColor = Color.blue
+    @State private var selectedColor = Color.white
 
     private var saveIsDisabled: Bool {
         title.isEmpty
@@ -23,16 +19,15 @@ struct AddEditJournalView: View {
                 TextField("New Journal Name", text: $title)
                     .textFieldStyle(.roundedBorder)
 
-                Spacer()
-
-                ColorPicker("Set Journal Color", selection: $selectedColor, supportsOpacity: false)
+                ColorPicker("Custom Label Color", selection: $selectedColor, supportsOpacity: false)
 
                 Spacer()
 
                 Button(action: save) {
-                    Text("Save")
+                    Text("Create Journal")
                         .padding()
-                        .frame(maxWidth: .infinity)
+//                        .frame(maxWidth: .infinity)
+                        .frame(width: 375, height: 105)
                         .background(
                             RoundedRectangle(cornerRadius: 8)
                                 .foregroundStyle(Color.blue)
@@ -55,6 +50,6 @@ struct AddEditJournalView: View {
 
 }
 
-#Preview {
-    AddEditJournalView()
-}
+//#Preview {
+//    AddEditJournalView()
+//}

@@ -1,8 +1,4 @@
-//
-//  ContentView.swift
-//  CoreDataJournal
-//
-//
+
 
 import SwiftUI
 import CoreData
